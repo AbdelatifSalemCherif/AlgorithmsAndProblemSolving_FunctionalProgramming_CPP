@@ -13,7 +13,7 @@
 
 using namespace std;
 
-namespace PrintFromAAAtoZZZ
+namespace AAAtoZZZ
 {
     void PrintAllWordsFromAAAToZZZ()
     {

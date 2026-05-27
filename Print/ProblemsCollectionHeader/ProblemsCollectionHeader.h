@@ -19,6 +19,11 @@ namespace AAtoZZ
 	void Run();
 }
 
+namespace AAAtoZZZ
+{
+	void Run();
+}
+
 namespace DayOfWeek
 {
 	void Run();
@@ -95,11 +100,6 @@ namespace TriangleOfStarsAscending
 }
 
 namespace TriangleOfStarsDescending
-{
-	void Run();
-}
-
-namespace PrintFromAAAtoZZZ
 {
 	void Run();
 }
