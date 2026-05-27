@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{435f143f-e582-4ec0-8c81-652f3617b36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Problems">
+      <UniqueIdentifier>{9ce8a65a-9bcd-4f7c-8530-af2f33dd094d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProblemsCollectionHeader">
+      <UniqueIdentifier>{a04039f2-65e6-4a5f-b029-23dde4b2f4c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\AddClientsToFile.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ConvertLineDataToRecord.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ConvertRecordToLine.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\DeleteClientByAccountNumber.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\FindClientByAccountNumber.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ShowAllClients.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\UpdateClientByAccountNumber.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
