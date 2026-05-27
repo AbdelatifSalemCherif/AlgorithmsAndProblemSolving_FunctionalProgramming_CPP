@@ -4,7 +4,7 @@
 * Teacher               : Dr.Mohammed Abu-Hadhoud
 * Educational Platform  : ProgrammingAdvices
 * Original Solve Date   : May 29, 2024 (Stored in .txt Archives)
-* Extracted & Published : May , 2026
+* Extracted & Published : May 27, 2026
 * Total Functions       : 9 Functions
 ==================================================================
 */
@@ -177,7 +177,9 @@ namespace DeleteClientByAccountNumber
 
     void Run()
     {
-        vector <stBankClientRecord> vClients = LoadClients("Level3/_04_Files/Data/Clients.txt", "#//#");
+        string FileName = "DataTest/Clients.txt";
+
+        vector <stBankClientRecord> vClients = LoadClients(FileName, "#//#");
 
         string AccountNumber = MyInput::ReadString("Please enter account number ? ");
 
@@ -190,7 +192,7 @@ namespace DeleteClientByAccountNumber
 
             if (MyInput::ReadYesOrNo("\nAre you sure you want delete this client ? yes/no ? "))
             {
-                DelteClient("Clients.txt", vClients, AccountNumber, "#//#");
+                DelteClient(FileName, vClients, AccountNumber, "#//#");
 
                 cout << "\nClient Deletes successfully" << endl;
 

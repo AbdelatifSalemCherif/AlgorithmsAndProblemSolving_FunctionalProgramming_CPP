@@ -4,7 +4,7 @@
 * Teacher               : Dr.Mohammed Abu-Hadhoud
 * Educational Platform  : ProgrammingAdvices
 * Original Solve Date   : May 5, 2024 (Stored in .txt Archives)
-* Extracted & Published : May, 2026
+* Extracted & Published : May 27, 2026
 * Total Functions       : 5 Functions
 ==================================================================
 */
@@ -63,7 +63,6 @@ namespace RepeatedElementInArray
 
         cout << Arr[Length - 1];
     }
-
 
     void Run()
     {
