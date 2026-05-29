@@ -1,20 +1,20 @@
-# 🚀 C++ Functional Programming & Problem-Solving Portfolio
-Welcome to my C++ repository, a professional collection of **174 algorithmic challenges** structured for scalability, modularity, and clean code principles. This project is designed as an educational framework to master C++ through the lens of Functional Programming and Software Architecture.
+# 🚀 C++ Problem Solving using Functional Programming & Clean Code
+Welcome to my ***C++ repository***, a professional collection of **174 algorithmic challenges** structured for scalability, modularity, and clean code principles. This project is designed as an educational framework to master C++ through the lens of Functional Programming and Software Architecture.
 
 ## 🏗️ Design Philosophy: "Divide and Conquer"
-The project is built on a unified architectural pattern applied across 8 distinct categories. By treating each category as an isolated module, I have achieved a highly maintainable environment where complexity is eliminated.
+The project is built on a unified architectural pattern applied across **8 distinct categories**. By treating each category as an isolated module, I have achieved a highly maintainable environment where complexity is eliminated.
 
 Core Principles Applied:
 - ***Uniform Architecture:*** Every problem category follows the exact same structure. Once you understand the design of one, you instantly master them all.
 
-- ***Centralized Orchestration:*** A single Main.cpp entry point allows users to toggle specific problems on/off via simple commenting, creating a seamless testing experience.
+- ***Centralized Orchestration:*** A single `Main.cpp` entry point allows users to toggle specific problems on/off via simple commenting, creating a seamless testing experience.
 
-- ***DRY (Don't Repeat Yourself):*** A dedicated HighlyUsedLibraries folder provides shared utility functions, ensuring that common logic is never duplicated.
+- ***DRY (Don't Repeat Yourself):*** A dedicated **HighlyUsedLibraries** folder provides shared utility functions, ensuring that common logic is never duplicated.
 
 - ***Modular Isolation:*** Each category functions as an independent project, keeping the codebase clean, organized, and decoupled.
 
 ## 📂 Repository Structure & Categories
-The repository organizes the 174 problems into **8 modular categories**, each encapsulated in its own folder. This structure enables clear separation of concerns and facilitates focused learning.
+The repository organizes the **174 problems** into **8 modular categories**, each encapsulated in its own folder. This structure enables clear separation of concerns and facilitates focused learning.
 
 | Category | Description | Total |
 | :---: | :---: | :---: |
@@ -49,26 +49,27 @@ The repository organizes the 174 problems into **8 modular categories**, each en
 ## ⚙️ Modular Architecture (The "Uniform" Design)
 To ensure the codebase remains readable and scalable, every category follows a strict, repeatable internal structure:
 
-- `ProblemCategory.cpp`: Contains the implementations of all logic within that category.
+- `Problems` **File:** Contains all source codes `.cpp` problems solution within that category.
 
-- `ProblemCategoryCollection.h`: A dedicated header file acting as a central interface for the category, declaring all functions and namespaces.
+- `ProblemCategoryCollection.h` **Header:** A dedicated header file acting as a ***central interface*** for the category, declaring all **namespaces** for each problem solution.
 
-- `Main.cpp` ***(Central Orchestrator):*** The sole entry point for the entire repository. It imports the required collection headers and provides a clean interface to execute specific problems by simply toggling comments.
+- `Main.cpp` ***(Central Orchestrator):*** The sole entry point for the entire **Category of problems**. It imports the required collection header and provides a clean interface to execute specific problems by simply toggling comments.
 
-***Why this design?*** This unified approach drastically reduces cognitive load. Once you understand the workflow of one category, you have mastered the navigation of all 174 problems.
+***Why this design?*** This unified approach drastically reduces cognitive load. Once you understand the workflow of one category, you have mastered the navigation of all **174 problems***.
 
 ## 🚀 How to Run
-Running any of the ***174 problems*** is straightforward, designed for maximum efficiency:
 
-- Open the `Main.cpp` file located in the Main directory.
+- Choose any category of problems you want.
 
-- Explore the list of function calls representing the problems from different categories.
+- Open the `Main.cpp` file located in the **Main** directory.
 
-- Toggle the desired project by removing the comment (//) from its line.
+- Explore the list of function calls representing the problems.
+
+- Toggle the desired problem by removing the comment (**//**) from its line.
 
 - Comment out other active functions to ensure a focused execution.
 
-- Compile & Run (e.g., using Ctrl+F5 in Visual Studio).
+- Compile & Run (e.g., using `Ctrl+F5` in Visual Studio).
 
 Created by 
 ***Abdelatif SALEM CHERIF***
