@@ -26,3 +26,15 @@ The repository organizes the 174 problems into **8 modular categories**, each en
 | **Numbers** | Numerical analysis and digit-based problem solving. | **11** Problems |
 | **Prints** | Aesthetic console output and pattern formatting. | **18** Problems |
 | **Strings** | String parsing and advanced text processing. | **28** Problems |
+
+## ⚙️ Modular Architecture (The "Uniform" Design)
+To ensure the codebase remains readable and scalable, every category follows a strict, repeatable internal structure:
+
+- `ProblemCategory.cpp`: Contains the implementations of all logic within that category.
+
+- `ProblemCategoryCollection.h`: A dedicated header file acting as a central interface for the category, declaring all functions and namespaces.
+
+- `Main.cpp` ***(Central Orchestrator):*** The sole entry point for the entire repository. It imports the required collection headers and provides a clean interface to execute specific problems by simply toggling comments.
+
+***Why this design?*** This unified approach drastically reduces cognitive load. Once you understand the workflow of one category, you have mastered the navigation of all 174 problems.
+
