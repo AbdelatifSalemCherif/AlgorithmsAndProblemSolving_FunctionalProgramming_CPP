@@ -24,7 +24,7 @@ The repository organizes the 174 problems into **8 modular categories**, each en
 | **Math** | Complex mathematical algorithms and logic. | **40** Problems |
 | **Matrices** | Multi-dimensional array operations. | **20** Problems |
 | **Numbers** | Numerical analysis and digit-based problem solving. | **11** Problems |
-| **Prints** | Aesthetic console output and pattern formatting. | **18** Problems |
+| **Print** | Aesthetic console output and pattern formatting. | **18** Problems |
 | **Strings** | String parsing and advanced text processing. | **28** Problems |
 
 ## ⚙️ Modular Architecture (The "Uniform" Design)
@@ -38,3 +38,15 @@ To ensure the codebase remains readable and scalable, every category follows a s
 
 ***Why this design?*** This unified approach drastically reduces cognitive load. Once you understand the workflow of one category, you have mastered the navigation of all 174 problems.
 
+## 🚀 How to Run
+Running any of the ***174 problems*** is straightforward, designed for maximum efficiency:
+
+- Open the `Main.cpp` file located in the Main directory.
+
+- Explore the list of function calls representing the problems from different categories.
+
+- Toggle the desired project by removing the comment (//) from its line.
+
+- Comment out other active functions to ensure a focused execution.
+
+- Compile & Run (e.g., using Ctrl+F5 in Visual Studio).
