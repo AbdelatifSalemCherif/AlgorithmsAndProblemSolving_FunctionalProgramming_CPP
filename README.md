@@ -1,4 +1,4 @@
-# 🚀 C++ Problem Solving using Functional Programming & Clean Code
+# 💻 C++ Problem Solving applying Functional Programming & Clean Code
 Welcome to my ***C++ repository***, a professional collection of **174 algorithmic challenges** structured for scalability, modularity, and clean code principles. This project is designed as an educational framework to master C++ through the lens of Functional Programming and Software Architecture.
 
 ## 🏗️ Design Philosophy: "Divide and Conquer"
