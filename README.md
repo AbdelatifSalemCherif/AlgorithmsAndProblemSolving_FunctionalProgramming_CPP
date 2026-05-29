@@ -26,7 +26,6 @@ The repository organizes the 174 problems into **8 modular categories**, each en
 | **Numbers** | Multi-dimensional array operations. | **11** Problems |
 | **Print** | Multi-dimensional array operations. | **18** Problems |
 | **Strings** | Multi-dimensional array operations. | **28** Problems |
-
 | **Numbers** | Numerical analysis and digit-based problem solving. |
 | **Prints** | Aesthetic console output and pattern formatting. |
 | **Strings** | String parsing and advanced text processing. |
