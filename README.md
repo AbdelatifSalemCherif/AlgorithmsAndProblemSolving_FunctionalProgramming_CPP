@@ -27,6 +27,25 @@ The repository organizes the 174 problems into **8 modular categories**, each en
 | **Print** | Aesthetic console output and pattern formatting. | **18** Problems |
 | **Strings** | String parsing and advanced text processing. | **28** Problems |
 
+### Tree of each Category : 
+```
+📂 CategoryOfPreblems/
+|
+├──📂 Problems/                          # Source code for each problem 
+|   ├── Problem 1.cpp
+|   ├── ...
+|   ├── ...
+|   ├── ...
+|   └── Problem N.cpp
+|
+├──📂 ProblemsCollectionHeader/
+│   └── ProblemsCollectionHeader.h         # Groping all Problems in one header file          
+|
+└──📂 Main/
+   └── Main.cpp                             # The main entry point linking all problems
+    
+```
+
 ## ⚙️ Modular Architecture (The "Uniform" Design)
 To ensure the codebase remains readable and scalable, every category follows a strict, repeatable internal structure:
 
