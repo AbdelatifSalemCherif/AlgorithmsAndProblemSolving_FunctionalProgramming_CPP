@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main\Main.cpp" />
     <ClCompile Include="Problems\AddArrayElementSimiDynamic.cpp" />
     <ClCompile Include="Problems\AverageOfRandomArray.cpp" />
     <ClCompile Include="Problems\CheckNumberInArray.cpp" />
@@ -144,10 +149,13 @@
     <ClCompile Include="Problems\FillArrayWithRandomNumbersFrom1To100.cpp" />
     <ClCompile Include="Problems\MaxOfRandomArray.cpp" />
     <ClCompile Include="Problems\MinOfRandomArray.cpp" />
-    <ClCompile Include="Problems\RepeatedElementInArraycpp.cpp" />
+    <ClCompile Include="Problems\RepeatedElementInArray.cpp" />
     <ClCompile Include="Problems\ReturnNumberIndexAndOrderInArray.cpp" />
     <ClCompile Include="Problems\ShuffleOrdredArray.cpp" />
     <ClCompile Include="Problems\SumOf2ArraysOn3rdOne.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

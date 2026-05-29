@@ -6,4 +6,24 @@
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\CheckNumbersInRange.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MyCharProcess.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MyDateProcess.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MyInput.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MyOutput.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MyStringProcess.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

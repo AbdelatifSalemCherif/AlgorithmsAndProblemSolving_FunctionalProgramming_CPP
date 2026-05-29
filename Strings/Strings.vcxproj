@@ -17,7 +17,40 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\Main.cpp" />
+    <ClCompile Include="Problems\ATM_PIN.cpp" />
+    <ClCompile Include="Problems\ATM_PIN3Times.cpp" />
+    <ClCompile Include="Problems\CountEachWordInString.cpp" />
+    <ClCompile Include="Problems\CountLetters.cpp" />
+    <ClCompile Include="Problems\CountLettersMatchCase.cpp" />
+    <ClCompile Include="Problems\CountSmall_CapitalLetters.cpp" />
+    <ClCompile Include="Problems\CountVowel.cpp" />
+    <ClCompile Include="Problems\EncryptDecryptText.cpp" />
+    <ClCompile Include="Problems\Find3LettersPassword.cpp" />
+    <ClCompile Include="Problems\GeneratKeys.cpp" />
+    <ClCompile Include="Problems\InvertAllLettersCase.cpp" />
+    <ClCompile Include="Problems\InvertCharacterCase.cpp" />
+    <ClCompile Include="Problems\IsVowel.cpp" />
+    <ClCompile Include="Problems\JoinString.cpp" />
+    <ClCompile Include="Problems\JoinStringOverloadingInArray.cpp" />
+    <ClCompile Include="Problems\LowerFirstLetterOfEachWord.cpp" />
+    <ClCompile Include="Problems\PrintAllVowelsInString.cpp" />
+    <ClCompile Include="Problems\PrintEachWordInString.cpp" />
+    <ClCompile Include="Problems\PrintFirstLetterOfEachWord.cpp" />
+    <ClCompile Include="Problems\RandomCharacters.cpp" />
+    <ClCompile Include="Problems\RemovePunctuations.cpp" />
+    <ClCompile Include="Problems\ReplaceWords.cpp" />
+    <ClCompile Include="Problems\ReplaceWordsCustom.cpp" />
+    <ClCompile Include="Problems\ReverseWords.cpp" />
+    <ClCompile Include="Problems\SplitString.cpp" />
+    <ClCompile Include="Problems\TrimLeft_TrimRight_Trim.cpp" />
+    <ClCompile Include="Problems\UpperFirstLetterOfEachWord.cpp" />
+    <ClCompile Include="Problems\Upper_LowerAllLetters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -53,33 +86,31 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -94,6 +125,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -108,6 +140,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,6 +155,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,8 +164,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

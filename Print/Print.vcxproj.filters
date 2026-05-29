@@ -13,4 +13,68 @@
       <UniqueIdentifier>{d4cef060-e3dd-42cc-a44a-453c85123070}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\InvertedLetterPattern.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\InvertedNumberPattern.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\LetterPattern.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\NumberPattern.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintMultiplicationTableFrom1To10.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\NumberToText.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\GradeA_B_C_D_E_F.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\DayOfWeek.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MonthOfYear.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\AAtoZZ.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TriangleFrom1To10Ascending.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TriangleFromAtoZAscending.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TriangleOfStarsAscending.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TriangleOfStarsDescending.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintLettersFromAtoZ.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintNumbersFrom1ToN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintNumbersFromNto1.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\AAAtoZZZ.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

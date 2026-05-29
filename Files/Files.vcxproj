@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main\Main.cpp" />
     <ClCompile Include="Problems\AddClientsToFile.cpp" />
     <ClCompile Include="Problems\ConvertLineDataToRecord.cpp" />
     <ClCompile Include="Problems\ConvertRecordToLine.cpp" />
@@ -134,6 +139,9 @@
     <ClCompile Include="Problems\FindClientByAccountNumber.cpp" />
     <ClCompile Include="Problems\ShowAllClients.cpp" />
     <ClCompile Include="Problems\UpdateClientByAccountNumber.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,7 +12,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Problems\AverageOf3Markscpp.cpp">
+    <ClCompile Include="Problems\AverageOf3Marks.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
     <ClCompile Include="Problems\LoanInstalmentMonths.cpp">
@@ -125,6 +125,18 @@
     </ClCompile>
     <ClCompile Include="Problems\FibonacciSeriesWithRecursion.cpp">
       <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintSumEvenNumbersFrom1ToN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintSumOddNumbersFrom1ToN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

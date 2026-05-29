@@ -13,4 +13,98 @@
       <UniqueIdentifier>{95b31ff5-b1e5-4608-ae9a-d5f8b6a3cdf0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\ATM_PIN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ATM_PIN3Times.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\EncryptDecryptText.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\Find3LettersPassword.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\GeneratKeys.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountEachWordInString.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountLetters.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountLettersMatchCase.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountSmall_CapitalLetters.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountVowel.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\InvertAllLettersCase.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\InvertCharacterCase.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\IsVowel.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\JoinString.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\JoinStringOverloadingInArray.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\LowerFirstLetterOfEachWord.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintAllVowelsInString.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintEachWordInString.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintFirstLetterOfEachWord.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\RemovePunctuations.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ReplaceWords.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ReplaceWordsCustom.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ReverseWords.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SplitString.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TrimLeft_TrimRight_Trim.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\UpperFirstLetterOfEachWord.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\Upper_LowerAllLetters.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\RandomCharacters.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

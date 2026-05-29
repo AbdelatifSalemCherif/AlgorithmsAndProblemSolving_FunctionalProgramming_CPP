@@ -13,4 +13,74 @@
       <UniqueIdentifier>{86d55e3f-ccab-4ba7-9423-5eb929a140c2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\CheckIdentityMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CheckMatricesEquality.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CheckScalarMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CheckSparseMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CheckTypicalMatrices.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CountNumberInMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\IntersectedNumbersInMatrices.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\Min_MaxNumberInMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MultiplyTwoMatrices.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\NumberExistsInMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\OrderedMatrix3x3.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PalindomeMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintMiddleRowAndColOfMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\RandomMatrix3x3.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumEachColInMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumEachColInMatrixInArray.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumEachRowInMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumEachRowInMatrixInArray.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumOfMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TransposeMatrix.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

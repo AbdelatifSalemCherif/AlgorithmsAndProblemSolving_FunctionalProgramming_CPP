@@ -37,9 +37,14 @@ namespace ATM_PIN3Times
     void PIN3Times(string PINcode)
     {
         short Counter = 0;
-        while (++Counter < 3 && !CheckIfRightPIN(PINcode, ReadString("Please enter ATM PIN Code ? \n")))
+        while (++Counter <= 3 && !CheckIfRightPIN(PINcode, ReadString("Please enter ATM PIN Code ? \n")))
         {
 
+        }
+
+        if (Counter <= 3)
+        {
+            cout << "Your Balace is : 5000" << endl;
         }
     }
 

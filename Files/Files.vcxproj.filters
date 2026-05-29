@@ -33,5 +33,13 @@
     <ClCompile Include="Problems\UpdateClientByAccountNumber.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)/HighlyUsedLibraries/Include;$(ProjectDir)/ProblemsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Problems\AverageOf3Markscpp.cpp" />
+    <ClCompile Include="Main\Main.cpp" />
+    <ClCompile Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h" />
+    <ClCompile Include="Problems\AverageOf3Marks.cpp" />
     <ClCompile Include="Problems\CheckAveragePassOrFail.cpp" />
     <ClCompile Include="Problems\CircleArea.cpp" />
     <ClCompile Include="Problems\CircleAreaAlongTheCircumference.cpp" />
@@ -153,6 +159,8 @@
     <ClCompile Include="Problems\PiggyBankCalculator.cpp" />
     <ClCompile Include="Problems\PowerOf2_3_4.cpp" />
     <ClCompile Include="Problems\PowerOfM.cpp" />
+    <ClCompile Include="Problems\PrintSumEvenNumbersFrom1ToN.cpp" />
+    <ClCompile Include="Problems\PrintSumOddNumbersFrom1ToN.cpp" />
     <ClCompile Include="Problems\Random3NumbersBetween1To10.cpp" />
     <ClCompile Include="Problems\RectangleArea.cpp" />
     <ClCompile Include="Problems\RectangleAreaThroughDiagonalAndSide.cpp" />

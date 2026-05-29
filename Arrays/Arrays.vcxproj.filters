@@ -63,7 +63,7 @@
     <ClCompile Include="Problems\MinOfRandomArray.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
-    <ClCompile Include="Problems\RepeatedElementInArraycpp.cpp">
+    <ClCompile Include="Problems\RepeatedElementInArray.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
     <ClCompile Include="Problems\ReturnNumberIndexAndOrderInArray.cpp">
@@ -75,5 +75,13 @@
     <ClCompile Include="Problems\SumOf2ArraysOn3rdOne.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

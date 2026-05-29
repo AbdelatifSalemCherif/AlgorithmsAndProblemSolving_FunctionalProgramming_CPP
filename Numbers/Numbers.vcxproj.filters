@@ -13,4 +13,47 @@
       <UniqueIdentifier>{afaec92b-3fc7-4e95-a2a1-d5297787f596}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problems\CheckPalindromeNumber.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\CheckPerfectNember.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ConvertToBinary.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\DigitFrequency.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PerfectNumbers1ToN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrimeNumbers1ToN.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintAllDigitsFrequency.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintDigitsInOrder.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\PrintDigitsInReversedOrder.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ReverseNumber.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\SumOfDigits.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProblemsCollectionHeader\ProblemsCollectionHeader.h">
+      <Filter>ProblemsCollectionHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
