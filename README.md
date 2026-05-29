@@ -29,7 +29,7 @@ The repository organizes the **174 problems** into **8 modular categories**, eac
 
 ### Tree of each Category : 
 ```
-📂 CategoryOfPreblems/
+📂 CategoryOfPreblems/                   # For example: Arrays/
 |
 ├──📂 Problems/                          # Source code for each problem 
 |   ├── Problem 1.cpp
